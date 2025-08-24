@@ -1,0 +1,18 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  # Untuk Android < 12 & iOS
+  background_image: "assets/images/bg.png"
+  image: assets/icons/logo/yk.png
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: center
+
+  # Untuk Android 12+
+  android_12:
+    color: "#1E3A8A" # fallback color supaya aman
+    image: assets/icons/logo/yk12.png
+    fullscreen: true
+    android_gravity: center
